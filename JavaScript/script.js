@@ -7,12 +7,10 @@ function handleKeyPress(event) {
     }
 }
 
-
 function resetLuas() {
-    // Clear the input field
+
     document.getElementById('nilaiSisiLuas').value = '';
 
-    // Clear the result container
     document.getElementById('resultContainerLuas').innerHTML = '';
 }
 
@@ -36,10 +34,9 @@ function hitungLuas() {
 }
 
 function resetKeliling() {
-    // Clear the input field
+
     document.getElementById('nilaiSisiKeliling').value = '';
 
-    // Clear the result container
     document.getElementById('resultContainerKeliling').innerHTML = '';
 }
 
